@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="page-styles.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/61ca687656.js" crossorigin="anonymous"></script>
+    <title>Mar4lonics</title>
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+        
+        body, html {
+        height: 100%;
+        line-height: 1.8;
+        }
+        
+        /* Full height image header */
+        .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://images.unsplash.com/photo-1592659762303-90081d34b277?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80y"); /* https://images.unsplash.com/photo-1487284122274-e864e9dec2bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80 */
+        min-height: 100%;
+        }
+        
+        .alpha-bar .alpha-button {
+        padding: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar navbar-expand-md navbar-dark bd-navbar pt-0">
+    <nav class="container-lg flex-wrap flex-md-nowrap" aria-label="Main navigation">
+        
+            <a class="navbar-brand pl-3 mt-4 me-2" href="#" aria-label="My Website">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path d="M16.25 6c.414 0 .75.336.75.75v9.5c0 .414-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75v-9.5c0-.414.336-.75.75-.75h9.5zm2.75 0c0-1.104-.896-2-2-2h-11c-1.104 0-2 .896-2 2v11c0 1.104.896 2 2 2h11c1.104 0 2-.896 2-2v-11zm-11 14v3h-1v-3h1zm4 0v3h-1v-3h1zm2 0v3h-1v-3h1zm-4 0v3h-1v-3h1zm6 0v3h-1v-3h1zm-8-20v3h-1v-3h1zm4 0v3h-1v-3h1zm2 0v3h-1v-3h1zm-4 0v3h-1v-3h1zm6 0v3h-1v-3h1zm4 15h3v1h-3v-1zm0-4h3v1h-3v-1zm0-2h3v1h-3v-1zm0 4h3v1h-3v-1zm0-6h3v1h-3v-1zm-20 8h3v1h-3v-1zm0-4h3v1h-3v-1zm0-2h3v1h-3v-1zm0 4h3v1h-3v-1zm0-6h3v1h-3v-1z"/>
+                </svg>
+            </a> 
+            
+        <button style="border: none;" class="navbar-toggler collapsed mr-3 mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+            </svg>
+            </button>
+        <div class="collapse navbar-collapse" id="bdNavbar">
+        <ul class="col-8 navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
+            <li class="nav-item col-6 col-md-auto">
+                <a href="Home" class="nav-item nav-link">Home</a>
+            </li>
+            <li class="nav-item col-6 col-md-auto">
+                <a href="Home" class="nav-item nav-link">About</a>
+            </li>
+            <li class="nav-item col-6 col-md-auto">
+                <a href="Home" class="nav-item nav-link">Contact</a>
+            </li>
+            <li class="nav-item col-6 col-md-auto">
+                <a href="Home" class="nav-item nav-link">Exmaples</a>
+            </li>
+            <li class="nav-item col-6 col-md-auto">
+                <a href="Home" class="nav-item nav-link">Blog</a>
+            </li>
+
+        </ul>
+        <hr class="d-md-none text-white-50">
+        <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+            <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="https://github.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 499.36" role="img">
+                    <title>GitHub</title>
+                    <path fill="currentColor" fill-rule="evenodd" d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"></path>
+                    </svg>
+                    <small class="d-md-none ms-2">GitHub</small>
+                </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="https://facebook.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <title>Facebook</title>
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                    <small class="d-md-none ms-2">Facebook</small>
+                </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="https://instagram.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <title>Instagram</title>
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>
+                    <small class="d-md-none ms-2">Instagram</small>
+                </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="https://twitter.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 416.32" role="img">
+                        <title>Twitter</title>
+                        <path fill="currentColor" d="M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92"></path>
+                    </svg>
+                    <small class="d-md-none ms-2">Twitter</small>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+</header>
+
+<nav class="navbar sticky-top navbar-light bg-light p-2">
+    <div class="container-fluid pl-0">
+    <form class="d-flex">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">  <!-- you can change the Search Icon from here (put the svg in the span element) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </span> 
+            </div>
+        <input class="form-control me-2 mr-1" type="search" placeholder="Search" aria-label="Search">
+    </div>
+        <button class="btn btn-outline-dark" type="submit">Search</button>
+    </form>
+    </div>
+</nav>
+<!-- Header-Section with full-height image -->
+<section class="bgimg-1 alpha-display-container alpha-grayscale-min" id="home">
+    <div class="alpha-display-left alpha-text-white" style="padding:48px">
+    <span class="alpha-jumbo alpha-hide-small alpha-transparent alpha-hover-shadow alpha-color-green">Start your journey with us today</span><br> <!-- Start something that matters -->
+    <span class="alpha-xlarge alpha-transparent alpha-hover-shadow alpha-color-red">Stop wasting valuable time with projects that just isn't you.</span>
+    <p><a href="#about" class="alpha-button alpha-black alpha-padding-large alpha-xlarge alpha-margin-top alpha-opacity alpha-hover-opacity-off">Learn more and start today</a></p>
+    </div> 
+    <div class="alpha-display-bottomleft alpha-text-white alpha-large" style="padding:24px 48px">
+    <i class="fa fa-github alpha-hover-opacity"></i>
+    <i class="fa fa-facebook-official alpha-hover-opacity"></i>
+    <i class="fa fa-instagram alpha-hover-opacity"></i>
+<!--     <i class="fa fa-snapchat alpha-hover-opacity"></i>
+    <i class="fa fa-pinterest-p alpha-hover-opacity"></i> -->
+    <i class="fa fa-twitter alpha-hover-opacity"></i>
+    <i class="fa fa-linkedin alpha-hover-opacity"></i>
+    </div>
+</section>
+<!-- About Section -->
+<div class="alpha-container" style="padding:128px 16px" id="about">
+    <h3 class="alpha-center">ABOUT THE COMPANY</h3>
+    <p class="alpha-center alpha-large">Key features of our company</p>
+    <div class="alpha-row-padding alpha-center" style="margin-top:64px">
+    <div class="alpha-quarter">
+        <i class="fa fa-desktop alpha-margin-bottom alpha-jumbo alpha-center"></i>
+        <p class="alpha-large">Responsive</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="alpha-quarter">
+        <i class="fa fa-heart alpha-margin-bottom alpha-jumbo"></i>
+        <p class="alpha-large">Passion</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="alpha-quarter">
+        <i class="fa fa-diamond alpha-margin-bottom alpha-jumbo"></i>
+        <p class="alpha-large">Design</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="alpha-quarter">
+        <i class="fa fa-cog alpha-margin-bottom alpha-jumbo"></i>
+        <p class="alpha-large">Support</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    </div>
+    </div>
+</div>
+<!-- Promo Section - "We know design" -->
+<div class="alpha-container alpha-light-grey" style="padding:128px 16px">
+    <div class="alpha-row-padding">
+    <div class="alpha-col m6">
+        <h3>We know design</h3>
+        
+        <p> Rigid PCBs, Flex PCBs and Rigid-Flex PCBs<br>
+            Aluminum Backed PCBs and Metal Core PCBs<br>
+            Advanced PCBs such as Heavy Copper PCBs, Hybrid RF PCBs, Ceramic PCBs, etc.<br>
+            Custom-shaped PCBs<br>
+            Rectangle PCBs<br>
+            Circular shaped PCBs<br>
+            PCBs in special shape</p>
+        <p><a href="#work" class="alpha-button alpha-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+    </div>
+    <div class="alpha-col m6">
+        <img class="alpha-image alpha-round-large" src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="pcb" width="700" height="394">
+    </div>
+    </div>
+</div>
+<!-- Team Section -->
+<div class="alpha-container" style="padding:128px 16px" id="team">
+    <h3 class="alpha-center">THE TEAM</h3>
+    <p class="alpha-center alpha-large">The ones who runs this company</p>
+    <div class="alpha-row-padding alpha-grayscale" style="margin-top:64px">
+        <div class="alpha-col l3 m12 alpha-margin-bottom">
+        <div class="alpha-card">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="John" style="width:100%">
+            <div class="alpha-container">
+                <h3>John Doe</h3>
+                <p class="alpha-opacity">CEO & Founder</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="alpha-button alpha-light-grey alpha-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+        </div>
+    </div>
+        <div class="alpha-col l3 m12 alpha-margin-bottom">
+            <div class="alpha-card">
+                <img src="https://images.unsplash.com/flagged/photo-1553642618-de0381320ff3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="Jane" style="width:100%">
+            <div class="alpha-container">
+                <h3>Anja Doe</h3>
+                <p class="alpha-opacity">Art Director</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="alpha-button alpha-light-grey alpha-block"><i class="fa fa-envelope"></i> Contact</button></p>
+            </div>
+        </div>
+    </div>
+        <div class="alpha-col l3 m12 alpha-margin-bottom">
+        <div class="alpha-card">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="Mike" style="width:100%">
+                <div class="alpha-container">
+                <h3>Mike Ross</h3>
+                <p class="alpha-opacity">Web Designer</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="alpha-button alpha-light-grey alpha-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+        </div>
+    </div>
+        <div class="alpha-col l3 m12 alpha-margin-bottom">
+        <div class="alpha-card">
+            <img src="https://images.unsplash.com/photo-1584940120743-8981ca35b012?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="Dan" style="width:100%">
+            <div class="alpha-container">
+            <h3>Dan Star</h3>
+            <p class="alpha-opacity">Designer</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p><button class="alpha-button alpha-light-grey alpha-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- Promo Section "Statistics" -->
+<div class="alpha-container alpha-row alpha-center alpha-dark-grey alpha-padding-64">
+    <div class="alpha-quarter">
+    <span class="alpha-xxlarge">14+</span>
+    <br>Partners
+    </div>
+    <div class="alpha-quarter">
+    <span class="alpha-xxlarge">55+</span>
+    <br>Projects Done
+    </div>
+    <div class="alpha-quarter">
+    <span class="alpha-xxlarge">89+</span>
+    <br>Happy Clients
+    </div>
+    <div class="alpha-quarter">
+    <span class="alpha-xxlarge">150+</span>
+    <br>Meetings
+    </div>
+</div>
+<!-- Work Section -->
+<div class="alpha-container" style="padding:128px 16px" id="work">
+    <h3 class="alpha-center">OUR WORK</h3>
+    <p class="alpha-center alpha-large ">What we've done for people</p>
+
+    <div class="alpha-row-padding" style="margin-top:64px;">
+    <div class="alpha-col l3 m12 mb-4">
+        <img  class="img-fluid" src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" style="width:100%" onclick="onClick(this)" class="alpha-hover-opacity" alt="pcb">
+    </div>
+    <div class="alpha-col l3 m12 mb-4">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" style="width:100%" onclick="onClick(this)" class="alpha-hover-opacity" alt="pcb">
+    </div>
+    <div class="alpha-col l3 m12 mb-4">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1522920192563-6df902920a8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80" style="width:100%" onclick="onClick(this)" class="alpha-hover-opacity" alt="pcb">
+    </div>
+    <div class="alpha-col l3 m12 mb-4">
+        <img class="img-fluid" src="https://images.unsplash.com/photo-1569615313731-7407da4f4594?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" style="width:100%" onclick="onClick(this)" class="alpha-hover-opacity" alt="pcb">
+    </div>
+    </div>
+</div>
+<!-- Modal for full size images on click-->     <!-- this section need to be fixed  -->
+<div id="modal01" class="alpha-modal alpha-black" onclick="this.style.display='none'">
+<span class="alpha-button alpha-xxlarge alpha-black alpha-padding-large alpha-display-topright" title="Close Modal Image">×</span>
+<div class="alpha-modal-content alpha-animate-zoom alpha-center alpha-transparent alpha-padding-64">
+    <img id="img01" class="alpha-image">
+    <p id="caption" class="alpha-opacity alpha-large"></p>
+</div>
+</div>
+<!-- Skills Section -->
+<div class="alpha-container alpha-light-grey alpha-padding-64">
+    <div class="alpha-row-padding">
+    <div class="alpha-col m6">
+        <h3>Our Skills.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+        tempor incididunt ut labore et dolore.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+        tempor incididunt ut labore et dolore.</p>
+    </div>
+    <div class="alpha-col l6">
+        <p class="alpha-wide"><i class="fas fa-microchip alpha-margin-right"></i>Pcb Manufacturing</p>
+        <div class="alpha-grey">
+    <div class="alpha-container alpha-dark-grey alpha-center" style="width:95%">95%</div>
+        </div>
+        <p class="alpha-wide pt-3"><i class="fas fa-atom alpha-margin-right"></i>Automation</p>
+        <div class="alpha-grey">
+    <div class="alpha-container alpha-dark-grey alpha-center" style="width:90%">90%</div>
+        </div>
+        <p class="alpha-wide pt-3"><i class="fas fa-bolt alpha-margin-right"></i>RF</p>
+        <div class="alpha-grey">
+    <div class="alpha-container alpha-dark-grey alpha-center" style="width:90%">90%</div>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- Pricing Section -->
+<div class="alpha-container alpha-center alpha-dark-grey" style="padding:128px 16px" id="pricing">
+    <h3>PRICING</h3>
+    <p class="alpha-large">Choose a pricing plan that fits your needs.</p>
+    <div class="alpha-row-padding" style="margin-top:64px">
+        <div class="alpha-third alpha-section">
+        <ul class="alpha-ul alpha-white alpha-hover-shadow">
+            <li class="alpha-black alpha-xlarge alpha-padding-32">Basic</li>
+            <li class="alpha-padding-16"><b>5</b> Free PCBs</li>
+            <li class="alpha-padding-16"><b>10</b> Trainings</li>
+            <li class="alpha-padding-16"><b>10</b> Emails</li>
+            <li class="alpha-padding-16"><b>Endless</b> Support</li>
+            <li class="alpha-padding-16">
+        <h2 class="alpha-wide">$ 250</h2>
+            <span class="alpha-opacity">per month</span>
+        </li>
+            <li class="alpha-light-grey alpha-padding-24">
+            <button class="alpha-button alpha-black alpha-padding-large">Sign Up</button>
+        </li>
+        </ul>
+    </div>
+    <div class="alpha-third">
+        <ul class="alpha-ul alpha-white alpha-hover-shadow">
+        <li class="alpha-red alpha-xlarge alpha-padding-48">Pro</li>
+        <li class="alpha-padding-16"><b>10</b> Free PCBs</li>
+        <li class="alpha-padding-16"><b>25</b> Trainings</li>
+        <li class="alpha-padding-16"><b>25</b> Emails</li>
+        <li class="alpha-padding-16"><b>Endless</b> Support</li>
+        <li class="alpha-padding-16">
+            <h2 class="alpha-wide">$ 500</h2>
+            <span class="alpha-opacity">per month</span>
+        </li>
+        <li class="alpha-light-grey alpha-padding-24">
+            <button class="alpha-button alpha-black alpha-padding-large">Sign Up</button>
+        </li>
+        </ul>
+    </div>
+    <div class="alpha-third alpha-section">
+        <ul class="alpha-ul alpha-white alpha-hover-shadow">
+        <li class="alpha-black alpha-xlarge alpha-padding-32">Premium</li>
+        <li class="alpha-padding-16"><b>15</b> Free PCBs</li>
+        <li class="alpha-padding-16"><b>50</b> Trainings</li>
+        <li class="alpha-padding-16"><b>50</b> Emails</li>
+        <li class="alpha-padding-16"><b>Endless</b> Support</li>
+        <li class="alpha-padding-16">
+            <h2 class="alpha-wide">$ 750</h2>
+            <span class="alpha-opacity">per month</span>
+        </li>
+        <li class="alpha-light-grey alpha-padding-24">
+            <button class="alpha-button alpha-black alpha-padding-large">Sign Up</button>
+        </li>
+        </ul>
+    </div>
+    </div>
+</div>
+<!-- Contact Section -->
+<div class="alpha-container alpha-light-grey" style="padding:128px 16px" id="contact">
+    <h3 class="alpha-center">CONTACT</h3>
+    <p class="alpha-center alpha-large">Lets get in touch. Send us a message</p>
+    <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw alpha-xxlarge alpha-margin-right"></i> Cairo, EG</p>
+    <p><i class="fa fa-phone fa-fw alpha-xxlarge alpha-margin-right"></i> Phone: +010 2030 4050</p>
+    <p><i class="fa fa-envelope fa-fw alpha-xxlarge alpha-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+    <form action="/submit-page" target="_blank">
+        <p><input class="alpha-input alpha-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="alpha-input alpha-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="alpha-input alpha-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="alpha-input alpha-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+    <button class="alpha-button alpha-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+    </button>
+        </p>
+    </form>
+
+        <!-- Image of location/map -->
+        <div class="alpha-container alpha-light-grey" style="padding:32px 16px" id="direction">
+        <h1 style="text-align: center; color: rgb(0, 0, 0);"> <i class="fa fa-camera pr-3 "></i>Image Of Our Location</h1>
+        <img src="https://mocah.org/thumbs/5407291-aerial-view-drone-view-road-lines-street-green-tree-city-intersection-urban-looking-down-skyscraper-modern-design-geometry-birds-eye-view-ariel-dji-mavic-pro-mavic-drone-photography-free-stock.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+        </div>
+    </div>
+    </div>
+
+<!-- Footer -->
+<footer class="alpha-center alpha-black alpha-padding-64">
+    <a href="#home" class="alpha-button alpha-light-grey"><i class="fa fa-arrow-up alpha-margin-right"></i>To the top</a>
+    <div class="alpha-xlarge alpha-section">
+    <i class="fa fa-github alpha-hover-opacity"></i>
+    <i class="fa fa-facebook-official alpha-hover-opacity"></i> <!-- <a class="nav-link p-2" href="https://facebook.com" target="_blank"></a> -->
+    <i class="fa fa-instagram alpha-hover-opacity"></i>
+<!--     <i class="fa fa-snapchat alpha-hover-opacity"></i>
+    <i class="fa fa-pinterest-p alpha-hover-opacity"></i> -->
+    <i class="fa fa-twitter alpha-hover-opacity"></i>
+    <i class="fa fa-linkedin alpha-hover-opacity"></i>
+    </div>
+    <p>Made By Omar Khalil &#169; <a href="https://www.linkedin.com/in/omarkhalil0/" title="Omar Khalil" target="_blank" class="alpha-hover-text-green">Say Hi!</a></p>
+</footer>
+<!-- JS line -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script>
+    
+    // Modal Image Gallery 
+    function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+    }
+    
+    
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+    var mySidebar = document.getElementById("mySidebar");
+    
+    function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+    }
+    
+    // Close the sidebar with the close button
+    function w3_close() {
+        mySidebar.style.display = "none";
+    } 
+    </script>
+</body>
+</html> 
