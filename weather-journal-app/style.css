@@ -1,0 +1,202 @@
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    height: 760px;
+    background: linear-gradient(to bottom, #154277 0%,#576e71 30%,#e1c45e 70%,#b26339 100%);
+}
+#clouds {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    height: 360px;
+    width: 100%;
+    overflow-x: hidden;
+}
+#clouds div {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#cloud1	{ 
+	width: 3185px; 
+	height: 355px; 
+	background-image: url(https://merexcursion.com/stars-and-clouds-bg/images/cloud1.png);
+	background-position: center;
+	background-repeat: repeat-x;
+    filter:Alpha(opacity=30);
+    opacity: 0.3;
+	animation: animatedBackground 100s linear infinite;
+}
+#cloud2	{ 
+	width: 2950px; 
+	height: 290px; 
+	background-image: url(https://merexcursion.com/stars-and-clouds-bg/images/cloud2.png);
+	background-position: center;
+	background-repeat: repeat-x;
+    filter:Alpha(opacity=50);
+    opacity: 0.5;
+	animation: animatedBackground 85s linear infinite;
+}
+#cloud3	{ 
+	width: 3075px; 
+	height: 207px; 
+	background-image: url(https://merexcursion.com/stars-and-clouds-bg/images/cloud3.png);
+	background-position: center;
+	background-repeat: repeat-x;
+    filter:Alpha(opacity=70);
+    opacity: 0.7;
+	animation: animatedBackground 60s linear infinite;
+}
+#zip,
+#feelings
+{
+    color: rgb(3, 134, 171);
+    font-weight: bold;
+    background: #fffffff6;
+    margin: 50px auto 0px;
+    width: 30%;
+    border: 2px solid #b26339 ;
+    border-radius: 30px;
+    height: 38px;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    resize:none;
+    margin-block: 5px;
+    max-width: 100%;
+}
+#zip::placeholder,
+#feelings::placeholder{
+    color: rgb(3, 134, 171);
+    font-family: sans-serif;
+    line-height: 30px;
+}
+#feelings{
+    margin-top: 0;
+}
+#generate{
+    margin: 50px auto 0px;
+    width: 10%;
+    display:block;
+    text-align: center;
+    background: #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1.5vw;
+    margin-top: 10px;
+    font-weight: bolder;
+    resize:none;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #2269bb 0%,#576e71 30%,#e1c45e 70%,#b26339 100%);
+    background-size: 380%;
+    transition: color 0.25s, box-shadow 0.25s, transform 0.25s, font-weight 0.25s, border-radius 0.5s ;
+}
+#generate:hover{
+    animation: changeGradientAnimation 8s linear infinite;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translatey(-0.15em);
+    cursor: pointer;
+}
+#entry{
+    width: 60%;
+    margin: 15px auto;
+    border-radius: 20px;
+    height: 250px;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out; 
+}
+#entryHolder{
+    text-align: center;
+    align-items: center;
+    color: #1f2f60;
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-rows: 50%;
+    grid-template-columns: 50% 50%;
+    font-size: 1.4vw;
+    font-weight: bolder;
+}
+#content{
+    grid-column: 1 / -1;
+}
+#temp,
+#region{
+    font-size: 1.7em;
+}
+.brand{
+    color: white;
+    text-decoration: none;
+}
+.title{
+    color: #1f2f60;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+.welcome{
+    opacity: 1;
+}
+audio{
+    display:none;
+}
+.button {
+    display: inline-block;     
+    z-index: 1;         
+    color: #eee;
+    position: absolute;
+    top: 50%;
+    width: 3.5em;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: linear-gradient(90deg, #2269bb 0%,#576e71 30%,#e1c45e 70%,#b26339 100%);
+    background-size: 410%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: transform 0.2s,box-shadow 0.2s, border-radius 0.5s, width 0.7s;
+}
+
+.iconImg{
+padding: 0;
+margin-top: -10px;
+width: 4vw;
+}
+
+.button:hover {
+    width: 4.5em;
+    animation: changeGradientAnimation 8s linear infinite;
+    transform: translatex(0.3em);
+    box-shadow: 0.2em 0.5em 0.5em -0.3em #b26339;
+    cursor: pointer;
+}
+.button:focus {
+    outline: none;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@keyframes changeGradientAnimation {
+    0% {
+    background-position: 0%;
+    }
+    100% {
+    background-position: 400%;
+    }
+}
+
